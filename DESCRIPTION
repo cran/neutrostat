@@ -1,7 +1,7 @@
 Package: neutrostat
 Type: Package
 Title: Neutrosophic Statistics
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(
     person("Zahid", "Khan", role = "aut"),
     person("Zsolt T.","Kosztyan",email="kosztyan.zsolt@gtk.uni-pannon.hu", role = c("aut", "cre")))
@@ -12,10 +12,11 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/kzst/neutrostat
 Depends: R (>= 4.00)
+Imports: moments, ntsDists, ggplot2, stats,
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-10-08 09:00:07 UTC; kzst
+Packaged: 2024-11-22 12:08:05 UTC; kzst
 Author: Zahid Khan [aut],
   Zsolt T. Kosztyan [aut, cre]
 Repository: CRAN
-Date/Publication: 2024-10-11 08:00:14 UTC
+Date/Publication: 2024-11-22 12:40:02 UTC
